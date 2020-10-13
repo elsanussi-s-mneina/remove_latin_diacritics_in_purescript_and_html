@@ -1,3 +1,10 @@
+# Introduction
+An application for removing Latin diacritics from text.
+
+For example, "åëí" becomes "aei".
+
+It runs in a browser with Javascript enabled. It is programmed in Purescript, transpiled to Javascript. The Javascript is then embedded in an HTML page.
+
 # Developer Requirements
  - Purescript compiler (purs version 0.13.8)
    - with Spago version 0.16.0 (a build system for Purescript)
@@ -46,4 +53,4 @@ spago test
 ## About the Developer of this Latin Diacritic Removal Web Application
 www.linkedin.com/in/elsanussi-mneina-57a8181b5
 
-github.com/elsanussi-s-mneina
+github.com/elsanussi-s-mneinahttps://github.com/elsanussi-s-mneina

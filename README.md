@@ -53,4 +53,4 @@ spago test
 ## About the Developer of this Latin Diacritic Removal Web Application
 www.linkedin.com/in/elsanussi-mneina-57a8181b5
 
-github.com/elsanussi-s-mneinahttps://github.com/elsanussi-s-mneina
+https://github.com/elsanussi-s-mneina

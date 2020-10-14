@@ -52,7 +52,7 @@ removeDiacritic character =
     _ | isIn character "ḋɗḍḏḑḓďđƌȡ" -> 'd'
     _ | isIn character "èéêẽēĕėëẻěȅȇẹȩęḙḛềếễểḕḗệḝɇɛǝⱸ" -> 'e'
     _ | isIn character "ḟƒ" -> 'f'
-    _ | isIn character "ĝḡğġǧɠģǥ" -> 'g'
+    _ | isIn character "ĝḡğġǧɠģǵǥ" -> 'g'
     _ | isIn character "ĥḣḧȟḥḩḫẖħⱨ" -> 'h'
     _ | isIn character "ìíîĩīĭıïỉǐịįȉȋḭɨḯ" -> 'i'
    --  _ | isIn character "ĳ" -> 'i' -- What do we do here?

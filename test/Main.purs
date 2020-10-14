@@ -17,3 +17,5 @@ main = launchAff_ $ runSpec [consoleReporter] do
     it "Ḇ" (removeDiacritic 'Ḇ' `shouldEqual` 'B')
     it "Ċ" (removeDiacritic 'Ċ' `shouldEqual` 'C')
     it "ÁḆĊé" (removeDiacritics "ÁḆĊé" `shouldEqual` "ABCe")
+  describe "remove acute accent" do
+    it "LATIN SMALL LETTER G WITH ACUTE" (removeDiacritics "ǵ" `shouldEqual` "g")

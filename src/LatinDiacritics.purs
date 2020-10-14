@@ -46,7 +46,7 @@ removeDiacritic character =
     _ | isIn character "ỲÝŶỸȲẎŸỶƳỴɎ" -> 'Y'
     _ | isIn character "ŹẐŻŽȤẒẔƵⱿⱫ" -> 'Z'
     _ | isIn character "àáâãāăȧäảåǎȁȃąạḁẚầấẫẩằắẵẳǡǟǻậặⱥɑ" -> 'a'
-    _ | isIn character "æǽǣ" -> 'a' -- what should we do here?
+    _ | isIn character "æǽǣ" -> 'æ'
     _ | isIn character "ḃɓḅḇƀƃ" -> 'b'
     _ | isIn character "ćĉċčƈçḉȼ" -> 'c'
     _ | isIn character "ḋɗḍḏḑḓďđƌȡ" -> 'd'

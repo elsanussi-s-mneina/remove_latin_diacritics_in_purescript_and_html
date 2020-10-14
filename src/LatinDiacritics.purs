@@ -17,7 +17,7 @@ removeDiacritic :: Char -> Char
 removeDiacritic character =
   case character of 
     _ | isIn character "ÀÀÁÂÃĀĂȦÄẢÅǍȀȂĄẠḀẦẤẪẨẰẮẴẲǠǞǺẬẶȺ" -> 'A'
-   -- ÆǼǢ
+    _ | isIn character "ǼǢ" -> 'Æ'
     _ | isIn character "ḂƁḄḆƂɃ" -> 'B'
     _ | isIn character "ĆĈĊČƇÇḈȻ" -> 'C'
     _ | isIn character "ḊƊḌḎḐḒĎÐĐƉƋ" -> 'D'

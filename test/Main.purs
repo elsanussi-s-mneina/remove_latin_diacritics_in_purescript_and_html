@@ -23,3 +23,5 @@ main = launchAff_ $ runSpec [consoleReporter] do
     it "LATIN SMALL LETTER AE" (removeDiacritic 'æ' `shouldEqual` 'æ')
     it "LATIN SMALL LETTER AE WITH ACUTE" (removeDiacritic 'ǽ' `shouldEqual` 'æ')
     it "LATIN SMALL LETTER AE WITH MACRON" (removeDiacritic 'ǣ' `shouldEqual` 'æ')
+    it "LATIN CAPITAL LETTER AE WITH ACUTE" (removeDiacritic 'Ǽ' `shouldEqual` 'Æ')
+    it "LATIN CAPITAL LETTER AE WITH MACRON" (removeDiacritic 'Ǣ' `shouldEqual` 'Æ')
